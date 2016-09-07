@@ -1,33 +1,35 @@
 
 
-.body {
+body {
     background-image: url('img/bg-color.jpg');
     background-attachment: fixed;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: decorative fontFINAL;
     text-align: left;
     margin: 0px;
     padding: 0px; 
+    width: 100%;
 }
-
-.body {
+.banner {
+    background-color: green;
+    width: 100%;
+    padding: 1%;
+    height: 4%;
+}
+#body {
     width: 72.5%;
     margin: 0 auto;
     clear: both;
-    color: green;
 }
-.banner{
-    background-color: green;
-    width: 100px;
-    height: 4%;
+a {
+   text-decoration: none; 
+   color: black;
 }
-
 .header {
 	height: 281px;
 	width: 100%;
-    /* background-image: url('img/headerimage.png');
+    background-image: url('img/headerimage.png');
     background-attachment: fixed;
-	background-image: repeat-x; */
-	margin-top: 1%;
+	background-image: repeat-x;
 	border-style: solid;
 	border-color: #c9d008;
 	border-radius: 10px;
@@ -102,5 +104,4 @@
 	padding-top: 5px;
     background-color: #ff7000;
     float:left;
-    border-radius: 10px;
 }
